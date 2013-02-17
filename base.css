@@ -1,0 +1,93 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html{
+    width: 100%;
+}
+
+/*Uses Junge and IM Fell English for base. Change to your own webfonts! */
+
+body{
+    font-family: 'Junge', serif;
+    margin: auto 0;
+    max-width: 45em;
+    padding: 1em 1em 1em 4em;
+    font-size:0.929em;
+    line-height: 1.385em;
+}
+
+h1, h2, h3, h4{
+    font-family: 'IM Fell English SC', serif;
+}
+
+h1 a, h2 a, h3 a, h4 a{
+    color: #000;
+    text-decoration: none;
+}
+
+h1{
+    line-height: 1.286;
+}
+
+.topic-title{
+    font-style: italic;
+    }
+
+.docinfo{
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.contents{
+    position: fixed;
+    width: 24em;
+    left: -21em;
+    top: 0;
+    background: 0.5em 0.3em no-repeat url(icons.svg) fixed rgba(0,0,0,0.9);
+    padding: 0 3em 4em 1em;
+    font-size: 0.9em;
+    color: white;
+    height: 100%;
+    overflow: hidden;
+    
+    -webkit-transition-property: left, background;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: ease;
+    
+    transition-property: left, background;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.contents ul{
+    padding: 0;
+    margin: 0 0 0 1em;
+}
+
+.contents li{
+    padding: 0;
+    margin: 0 0 0 1em;
+}
+
+.contents a{
+    color: white;
+}
+
+.contents:hover, .contents:focus{
+    left: 0;
+    overflow: auto;
+    width: 25em;
+    background-position: 21.5em 0.3em;
+}
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: rgba(255,255,255,0.3); 
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: rgba(255,255,255,0.3) ; 
+}

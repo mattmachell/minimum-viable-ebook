@@ -1,0 +1,16 @@
+CACHE MANIFEST
+
+#v7
+
+CACHE:
+
+/base.css
+/icons.svg
+http://fonts.googleapis.com/css?family=IM+Fell+English+SC|Junge
+http://themes.googleusercontent.com/static/fonts/junge/v1/rDDLpRsvJtDYa9fMgcJnCaCWcynf_cDxXwCLxiixG1c.woff
+
+http://themes.googleusercontent.com/static/fonts/imfellenglishsc/v3/h3Tn6yWfw4b5qaLD1RWvz1NITcQXGZNmPdSry0X2sgA.woff
+
+NETWORK:
+
+*
