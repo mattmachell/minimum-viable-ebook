@@ -46,6 +46,7 @@ h1{
     color: white;
     height: 100%;
     overflow: hidden;
+    cursor:pointer;
     
     -webkit-transition-property: left, background;
     -webkit-transition-duration: 1s;
@@ -70,7 +71,7 @@ h1{
     color: white;
 }
 
-.contents:hover, .contents:focus{
+.contents:hover, .contents:focus, .contents.focus{
     left: 0;
     overflow: auto;
     width: 25em;
