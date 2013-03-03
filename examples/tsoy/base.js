@@ -12,4 +12,6 @@ window.addEventListener('load', function(){
         
     }    
     document.getElementById('table-of-contents').addEventListener('touchstart', addFocus, false);
+    
+    document.getElementsByTagName('body')[0].addEventListener('click', removeFocus, false)
 });
